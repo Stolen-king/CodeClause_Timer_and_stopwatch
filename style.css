@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(stopwatch.jpg);
+    background-color: #313214;
+}
+
+.nav {
+    background-color: red;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: rgb(244, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 16px 18px;
+}
+.nav a:hover {
+    background-color: aqua;
+    color: red;
+}
+
+section
+{
+    width: 100%;
+    height: 87.8vh;
+}
+.contain
+{
+    /* padding: 12px; */
+    display: flex;
+    justify-content: center;
+    padding-right: 465px;
+    
+}
+.content
+{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: rgb(237, 229, 229);
+    margin-top: -180px;
+    padding-left: 468px;
+}
+img.logo{
+    margin-left: 464px;
+    padding: 11px;
+}
+.content h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(6, 255, 155);
+}
+.content h2 span{
+    color: #ff7b00;
+}
+.contain button{
+    background: transparent;
+    border: 2px solid rgb(239, 11, 11);
+    outline: none;
+    padding: 12px 25px;
+    color: rgb(225, 202, 202);
+}
+.time
+{
+    display: flex;
+    text-align: center;
+}
+.time div{
+    flex-basis: 100px;
+}
+.time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+.container
+{
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(226, 167, 47);
+}
+p
+{
+    font-size: 5em;
+    color: rgb(181, 206, 43);
+}
+button
+{
+    border: 2px solid rgb(249, 4, 4);
+    padding: 15px 8px;
+    font-size: 1.2em;
+    width: 180px;
+    margin: 8px;
+}
+button:hover
+{
+    cursor: pointer;
+    background-color: aqua;
+    color: rgb(255, 8, 8);
+    border: 1px solid rgb(165, 7, 7);
+}
+
+.foot {
+    padding: 11px;
+    text-align: center;
+    background-color: rgb(235, 4, 4);
+    color: white;
+    cursor: pointer;
+}
